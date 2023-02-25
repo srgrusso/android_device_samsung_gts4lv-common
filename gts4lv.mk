@@ -295,7 +295,7 @@ PRODUCT_COPY_FILES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RemoveCommonPackages
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
