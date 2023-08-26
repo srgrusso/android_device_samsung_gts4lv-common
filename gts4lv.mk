@@ -57,7 +57,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.2-impl:32 \
     audio.bluetooth.default \
-    audio.primary.sdm710:32 \
     audio.r_submix.default \
     audio.usb.default \
     cplay \
@@ -65,6 +64,7 @@ PRODUCT_PACKAGES += \
     libcirrusspkrprot \
     libhdmiedid \
     libhfp \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
