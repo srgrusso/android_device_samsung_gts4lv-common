@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-    libsuspend
+    charger_res_images_vendor
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -186,6 +186,8 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
+    android.hardware.health-service.samsung \
+    android.hardware.health-service.samsung-recovery \
     android.hardware.health@2.1.vendor
 
 # HIDL
